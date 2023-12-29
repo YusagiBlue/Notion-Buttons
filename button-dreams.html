@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        div {
+            transition: 0.5s;
+            margin: 5%;
+            padding: 25px 50px;
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+            grid-column-gap: 5%;
+            background-color: #e6efff;
+            border: dotted 5px #7174c3;
+            border-radius: 50px;
+            box-shadow: 5px 5px 10px #31135082;
+        }
+
+        div:hover {
+            transform: translateY(2.5px);
+            box-shadow: 1px 1px 5px #32135056;
+            background-color: #effdff;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            width: 100%;
+            transition: 0.6s cubic-bezier(.5, -0.42, .46, 1.4);
+        }
+
+        div:hover img {
+            transform: rotate(-15deg);
+        }
+
+        p {
+            display: block;
+            margin: auto;
+            font-size: 1.5em;
+            color: #7174c3;
+            font-weight: bold;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div onclick="navigate()">
+        <img src="img/flower3.png" alt="">
+        <p>
+            ･• ✩ ⋆ 𝒟𝒾𝒶𝓇𝒾𝑜 𝒹𝑒 𝒮𝓊𝑒ñ𝑜𝓈 ⋆ ✩ •･
+        </p>
+        </button>
+        <script>
+            function navigate() {
+                window.open("https://www.notion.so/d3fefbf6c80c434194413797de14ef39?v=0168260334e94b1dae1094680fdb7e66&pvs=4", '_parent').focus();
+            }
+        </script>
+</body>
+
+</html>
