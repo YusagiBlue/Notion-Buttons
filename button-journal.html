@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        div {
+            transition: 0.5s;
+            margin: 5%;
+            padding: 25px 50px;
+            display: grid;
+            grid-template-columns: 1fr 5fr;
+            grid-column-gap: 5%;
+            background-color: #fffaeb;
+            border: dotted 5px #d2ba78;
+            border-radius: 50px 50px 0 0;
+            box-shadow: 5px 5px 10px #31135082;
+        }
+
+        div:hover {
+            transform: translateY(2.5px);
+            box-shadow: 1px 1px 5px #32135056;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            width: 100%;
+            transition: 0.6s cubic-bezier(.5, -0.42, .46, 1.4);
+        }
+
+        div:hover img {
+            transform: rotate(-15deg);
+        }
+
+        p {
+            display: block;
+            margin: auto;
+            font-size: 2em;
+            color: #d2ba78;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div onclick="navigate()">
+        <img src="img/flower4.png" alt="">
+        <p>
+            ･•⊱✿&ensp;𝒥𝑜𝓊𝓇𝓃𝒶𝓁𝒾𝓃𝑔&ensp;𝒟𝒾𝒶𝓇𝒾𝑜&ensp;✿⊰•･
+        </p>
+        </button>
+        <script>
+            function navigate() {
+                window.open("https://www.notion.so/ec6f30b5caa04eeaad395f721d90d075?v=1cb883c43ec0445ab36ff4953769027a&pvs=40", '_blank').focus();
+            }
+        </script>
+</body>
+
+</html>
